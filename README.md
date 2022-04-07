@@ -29,3 +29,12 @@
 - AWS S3에 배포
 - node.js express
 - NginX
+
+### Serve Package
+
+- serve 패키지를 전역으로 설치
+- `npm install serve -g`
+- serve 명령어를 -s 옵션으로 build 폴더 지정
+  - -s 옵션은 어떤 라우팅으로 요청해도 index.html 을 응답하도록 지정
+  - -s => SPA의 약자
+- `serve -s build`
